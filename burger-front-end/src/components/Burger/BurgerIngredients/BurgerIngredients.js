@@ -10,8 +10,8 @@ class BurgerIngredient extends Component {
             // eslint-disable-next-line default-case
             switch (this.props.type) {
                 case ('bread-bottom'):
-                     ingredient = <div className='BreadBottom'></div>;
-                     break;
+                    ingredient = <div className='BreadBottom'></div>;
+                    break;
                 case ('bread-top'):
                     ingredient = (
                         <div className='BreadTop'>
